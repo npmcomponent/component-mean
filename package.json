@@ -1,20 +1,16 @@
 {
-  "name": "mean-component",
+  "name": "component-mean",
+  "description": "Array mean value utility",
   "version": "1.0.0",
+  "keywords": [
+    "array",
+    "mean",
+    "utility",
+    "stats",
+    "statistics"
+  ],
   "dependencies": {
-    "to-function": "*"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "mean": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/mean.git"
-  }
+  "license": "MIT"
 }
